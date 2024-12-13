@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conrad Cloud Computing</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Existing CSS file -->
 </head>
 <body>
     <header>
         <h1>Conrad Cloud Computing</h1>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html" aria-label="Home">Home</a></li>
+                <li><a href="cloud-infrastructure.html" aria-label="Cloud Infrastructure">Cloud Infrastructure</a></li>
+                <li><a href="data-management.html" aria-label="Data Management">Data Management</a></li>
+                <li><a href="security-solutions.html" aria-label="Security Solutions">Security Solutions</a></li>
+                <li><a href="consulting-services.html" aria-label="Consulting Services">Consulting Services</a></li>
+                <li><a href="contact.html" aria-label="Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -22,15 +24,15 @@
         <section>
             <h2>Welcome to Conrad Cloud Computing</h2>
             <p>Your trusted partner in cloud solutions.</p>
-            <button onclick="location.href='AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf'">View Certificate</button>
+            <button onclick="location.href='certificate.html'" aria-label="View AWS Certified Cloud Practitioner Certificate">View Certificate</button>
         </section>
         <section>
             <h2>Our Services</h2>
             <ul>
-                <li>Cloud Infrastructure</li>
-                <li>Data Management</li>
-                <li>Security Solutions</li>
-                <li>Consulting Services</li>
+                <li><a href="cloud-infrastructure.html">Cloud Infrastructure</a></li>
+                <li><a href="data-management.html">Data Management</a></li>
+                <li><a href="security-solutions.html">Security Solutions</a></li>
+                <li><a href="consulting-services.html">Consulting Services</a></li>
             </ul>
         </section>
     </main>
